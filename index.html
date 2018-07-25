@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js" integrity="sha384-CS0nxkpPy+xUkNGhObAISrkg/xjb3USVCwy+0/NMzd5VxgY4CMCyTkItmy5n0voC"
+    crossorigin="anonymous"></script>
+  <title>TTN's Cåfe</title>
+  <style>
+    body {
+      background-color: #fff;
+
+
+    }
+
+    .jumbotron {
+      background-image: url("images/background_cafe3.jpg");
+      background-size: cover;
+      background-position: 10%;
+    }
+
+    .top-img {
+      background-size: cover;
+      background-position: 10%;
+    }
+
+    .jumbotron p {
+      color: #fff;
+    }
+
+    /* body::after {
+        content: '';
+        display: block;
+        padding-top: 78.4%;
+      }*/
+
+    main {
+      padding-top: 25px
+    }
+
+    .row {
+      padding-top: 5px
+    }
+
+    h1 {
+      color: #fff;
+    }
+
+    header p {
+      color: #fff;
+    }
+
+    .g_map {
+      margin: 0 auto;
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+    }
+
+    .g_map iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
+        <a href="#" class="navbar-brand">かじかふぇ</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">TTN Cafe</h1>
+      <p class="lead">welcome welcome</p>
+    </div>
+  </div>
+  <main role="main" class="container">
+
+    <div class="container">
+      <!-- 列の例 -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/cafe-barista3.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">ご挨拶</h4>
+              <p class="card-text">ボク達が誇る、世界のバリスタ「XXX」から皆さまへのご挨拶</p>
+              <a class="btn btn-secondary btn-dark" href="greeting.html" role="button">皆さまへ &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/cafe-coffee.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">About</h4>
+              <p class="card-text">XXXから世界へのプレゼント「かじかふぇ」について</p>
+              <button class="btn btn-secondary btn-dark" href="#" role="button">Get it &raquo;</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/cafe-blog.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">Blog</h4>
+              <p class="card-text">コーヒーを愛するXXXの想い</p>
+              <button class="btn btn-secondary btn-dark" href="#" role="button">Blogs &raquo;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/background_cafe.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">Drinks Menu</h4>
+              <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
+              <button class="btn btn-secondary btn-dark" href="#" role="button">buttooooooon &raquo;</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/cafe-menu.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">Meals Menu</h4>
+              <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
+              <button class="btn btn-secondary btn-dark" href="#" role="button">buttooooooon &raquo;</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-1 box-shadow">
+            <img class="card-img-top" src="images/cafe-sweets2.jpg" alt="カード画像のキャプション">
+            <div class="card-body">
+              <h4 class="card-title">Sweets Menu</h4>
+              <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
+              <button class="btn btn-secondary btn-dark" href="#" role="button">buttooooooon &raquo;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+    <h2 id="location" style="padding-top: 5px">Where we can meet XXX?</h2>
+    <hr>
+    <div class="g_map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50972.819355287604!2d139.65145115411684!3d37.01453855551422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601fbfd95a454a87%3A0x68a742457690876f!2z44CSMzIxLTI4MDMg5qCD5pyo55yM5pel5YWJ5biC5Lit5LiJ5L6d!5e0!3m2!1sja!2sjp!4v1532241196697"
+        width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
