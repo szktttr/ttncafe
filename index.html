@@ -18,7 +18,11 @@
     body {
       background-color: #fff;
 
+    }
 
+    .ttncafe-header h1,p {
+      text-align: center;
+      margin: 10px auto;
     }
 
     .jumbotron {
@@ -58,6 +62,11 @@
       color: #fff;
     }
 
+    .map {
+      padding: 20px;
+    }
+
+
     .g_map {
       margin: 0 auto;
       position: relative;
@@ -79,10 +88,10 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
-        <a href="#" class="navbar-brand">かじかふぇ</a>
+        <a href="index.html" class="navbar-brand">かじかふぇ</a>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
+            <a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Menu</a>
@@ -98,8 +107,8 @@
     </div>
   </header>
   <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">TTN Cafe</h1>
+    <div class="container ttncafe-header">
+      <h1 class="display-4">かじかふぇ</h1>
       <p class="lead">welcome welcome</p>
     </div>
   </div>
@@ -113,7 +122,7 @@
             <img class="card-img-top" src="images/cafe-barista3.jpg" alt="カード画像のキャプション">
             <div class="card-body">
               <h4 class="card-title">ご挨拶</h4>
-              <p class="card-text">ボク達が誇る、世界のバリスタ「XXX」から皆さまへのご挨拶</p>
+              <p class="card-text">ボク達が誇る、世界のバリスタ「Yoshiki」から皆さまへのご挨拶</p>
               <a class="btn btn-secondary btn-dark" href="greeting.html" role="button">皆さまへ &raquo;</a>
             </div>
           </div>
@@ -124,7 +133,7 @@
             <img class="card-img-top" src="images/cafe-coffee.jpg" alt="カード画像のキャプション">
             <div class="card-body">
               <h4 class="card-title">About</h4>
-              <p class="card-text">XXXから世界へのプレゼント「かじかふぇ」について</p>
+              <p class="card-text">Yoshikiから世界へのプレゼント「かじかふぇ」について</p>
               <button class="btn btn-secondary btn-dark" href="#" role="button">Get it &raquo;</button>
             </div>
           </div>
@@ -134,7 +143,7 @@
             <img class="card-img-top" src="images/cafe-blog.jpg" alt="カード画像のキャプション">
             <div class="card-body">
               <h4 class="card-title">Blog</h4>
-              <p class="card-text">コーヒーを愛するXXXの想い</p>
+              <p class="card-text">コーヒーを愛するYoshikiの想い</p>
               <button class="btn btn-secondary btn-dark" href="#" role="button">Blogs &raquo;</button>
             </div>
           </div>
@@ -175,11 +184,13 @@
       </div>
     </div>
     <!-- /.container -->
-    <h2 id="location" style="padding-top: 5px">Where we can meet XXX?</h2>
-    <hr>
-    <div class="g_map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50972.819355287604!2d139.65145115411684!3d37.01453855551422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601fbfd95a454a87%3A0x68a742457690876f!2z44CSMzIxLTI4MDMg5qCD5pyo55yM5pel5YWJ5biC5Lit5LiJ5L6d!5e0!3m2!1sja!2sjp!4v1532241196697"
-        width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="map">
+      <h2 id="location">Where can we meet Yoshiki?</h2>
+      <hr>
+      <div class="g_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50972.819355287604!2d139.65145115411684!3d37.01453855551422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601fbfd95a454a87%3A0x68a742457690876f!2z44CSMzIxLTI4MDMg5qCD5pyo55yM5pel5YWJ5biC5Lit5LiJ5L6d!5e0!3m2!1sja!2sjp!4v1532241196697"
+          width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
   </main>
   <footer>

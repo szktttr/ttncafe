@@ -1,21 +1,141 @@
-Die Waschmaschine!
-これは僕が一番好きなドイツ語です
-この言葉に恥じぬよう、僕は毎日キッチンで腕を磨いています
+<!DOCTYPE html>
+<html>
 
-僕は「カフェ」をドイツで学んできました
-クーヘンと共にいただくコーヒーは格別で、Hühnchenというかder Wasserkesselという感じです
+<head>
+  <meta charset="utf-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js" integrity="sha384-CS0nxkpPy+xUkNGhObAISrkg/xjb3USVCwy+0/NMzd5VxgY4CMCyTkItmy5n0voC"
+    crossorigin="anonymous"></script>
+  <title>TTN's Cåfe</title>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      background-color: #fff;
+      background-image: url("images/background_cafe2.jpg");
+      background-size: cover;
+    }
 
-そんなドイツの風を僕のコーヒーを通じて皆様にも感じていただけましたら幸いでございます
-オープン記念月間といたしまして８月いっぱいまでコーヒーをご注文いただきました
-お客様には抽選で向かいの蕎麦屋の御食事券をご提供しております
-そんなに美味しくありませんが、みなさまの腹の足しにはなると思います
+    .jumbotron {
+      background-image: url("images/background_cafe3.jpg");
+      background-size: cover;
+      background-position: 10%;
+    }
+
+    .top-img {
+      background-size: cover;
+      background-position: 10%;
+    }
+
+    .jumbotron p {
+      color: #fff;
+    }
+
+    /* body::after {
+        content: '';
+        display: block;
+        padding-top: 78.4%;
+      }*/
+
+    main {
+      display: flex;
+      display: -webkit-flex;
+      display: flex;
+      height: 100%;
+      margin: 20px auto;
+      border-radius: 5px;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
 
-最後になりましたが
-プレオープンに際しては、要潤さん、アントニオ猪木さん、ジャイアント白田さんなど
-錚々たるメンバーに応援いただきましてようやくオープンの日を迎えることができました
-この場を借りてお礼申し上げます
+    .contents {
+      display: flex;
+      background-color: blue;
+      display: -webkit-flex;
+      display: flex;
+      height: 100%;
+      margin: 20px auto;
+      border-radius: 5px;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
-深田恭子さんのご来店お待ちしております
+    .greeting {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      -webkit-flex: none;
+      flex: none;
+    }
 
-敬具
+    .greeting p {
+      text-align: center;
+    }
+
+    .row {
+      padding-top: 5px
+    }
+
+    h1 {
+      color: #fff;
+    }
+
+    header p {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
+        <a href="index.html" class="navbar-brand">かじかふぇ</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#location" class="nav-link">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class=" container">
+    <div class="greeting container">
+      <p>Die Waschmaschine!</p>
+      <p>これは僕が一番好きなドイツ語です。</p>
+      <p>この言葉に恥じぬよう、僕は毎日キッチンで腕を磨いています。</p>
+      <br>
+      <p>僕は「カフェ」をドイツで学んできました。</p>
+      <p>クーヘンと共にいただくコーヒーは格別で、Hühnchenというかder Wasserkesselという感じです。</p>
+      <p>そんなドイツの風を僕のコーヒーを通じて皆様にも感じていただけましたら幸いでございます。</p>
+      <p>オープン記念といたしまして本店ではコーヒーをご注文いただきましたお客様には抽選で向かいの蕎麦屋の御食事券をご提供しております。</p>
+      <p>それでは、有村架純さんのご来店お待ちしております。</p>
+      <p style="text-align: end"><strong><em>Yoshiki</em></strong></p>
+    </div>
+  </main>
+</body>
+
+</html>
